@@ -18,7 +18,7 @@ namespace MasterDetail.Droid.Fragments
 
             var view = this.BindingInflate(Resource.Layout.configuration_page_fragment, null);
 
-            // Fragments contain TabLayout children!
+            // To MvvmCross dev: Fragments contain TabLayout children!
             var fragments = Activity.SupportFragmentManager.Fragments;
 
             return view;
