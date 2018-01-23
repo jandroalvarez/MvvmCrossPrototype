@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+  <LinearLayout
+      android:id="@+id/cardDeviceDataLayout"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_horizontal"
+      android:padding="10dp"
+      local:MvxBind="Click ShowDeviceDataDetailsCommand">
+      <TextView
+          android:id="@+id/cardHeaderDeviceData"
+          android:text="@string/header_device_data"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+  </LinearLayout>
+</LinearLayout>
+  
